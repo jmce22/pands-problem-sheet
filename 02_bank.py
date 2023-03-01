@@ -1,8 +1,7 @@
-# this program should: 
+# This program should: 
 # prompt the user and read in two money amounts (in cent)
 # Add the two amounts
-# Print out the answer in a human readable format with a 
-# euro sign and decimal point between the euro and cent of the amount 
+# Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 # Author: James McEneaney
 
 amount1 = input('Enter amount 1 in cents: ')
