@@ -1,4 +1,4 @@
-# This program tells the user whether today is a weekday or weekend.
+# This script tells the user whether today is a weekday or weekend.
 # Author: James McEneaney
 # References: 
 # https://www.w3schools.com/python/python_datetime.asp
@@ -17,6 +17,6 @@ dayofweek = today.weekday()
 # name of the day
 
 if int(dayofweek) > 4: 
-    print(f'"Today it is {today.strftime("%A")}, which thankfully is the weekend!')
+    print(f'Today it is {today.strftime("%A")}, which thankfully is the weekend!')
 else:
-    print(f'"Today it is {today.strftime("%A")}, which unfortunately is a weekday!')
+    print(f'Today it is {today.strftime("%A")}, which unfortunately is a weekday!')

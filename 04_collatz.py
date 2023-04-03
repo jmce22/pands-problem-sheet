@@ -1,4 +1,4 @@
-# This code deminstrates the Collatz conjecture. 
+# This script demonstrates the Collatz conjecture. 
 # According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
 # below will eventually transform every positive integer into 1.
 # The two operations are:
