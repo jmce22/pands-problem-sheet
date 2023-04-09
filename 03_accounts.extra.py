@@ -7,7 +7,6 @@
 
 
 
-
 # This asks the user to input a valid number for the purpose of this exercise
 x = input("please enter a number containing seven or more digits: ")
 

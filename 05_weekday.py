@@ -1,4 +1,3 @@
-
 # This script tells the user whether today is a weekday or weekend.
 # Author: James McEneaney
 

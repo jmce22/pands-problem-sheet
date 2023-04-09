@@ -1,4 +1,3 @@
-
 # This script generates and prints a histogram of a normal distribution of a 1000 values with a mean of 5 
 # and standard deviation of 2
 
@@ -8,7 +7,6 @@
 # https://www.geeksforgeeks.org/style-plots-using-matplotlib/?ref=lbp
 # https://www.educative.io/answers/what-is-the-matplotlibpyplotsavefig-function-in-python
 # https://www.geeksforgeeks.org/matplotlib-pyplot-ylabel-in-python/
-
 
 
 

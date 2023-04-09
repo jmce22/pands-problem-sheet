@@ -1,9 +1,6 @@
-
 # This script takes an input of ten digits and outputs the first six digits, followed by the letter 'X' in place of the 
 # last four digits
 # Author: James McEneaney
-
-
 
 
 # This asks the user to enter a ten digit number.

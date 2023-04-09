@@ -1,14 +1,13 @@
-
 # This script demonstrates the Collatz conjecture. 
 # According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
 # below will eventually transform every positive integer into 1.
+
 # The two operations are:
 # if the previous term is even, the next term is one half of the previous term. 
 # If the previous term is odd, the next term is 3 times the previous term plus 1. 
 # The conjecture is that for any positive integer chosen, these sequences always reach 1.
 
 # References: 'A Whirlwind Tour of Python 2'
-
 
 
 

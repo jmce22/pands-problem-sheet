@@ -1,4 +1,3 @@
-
 # This script generates a plot for the function y = h(x) = x^3
 
 # References: 
@@ -7,7 +6,6 @@
 # https://www.educative.io/answers/what-is-the-matplotlibpyplotsavefig-function-in-python
 # https://www.geeksforgeeks.org/matplotlib-pyplot-ylabel-in-python/
 # https://www.geeksforgeeks.org/style-plots-using-matplotlib/?ref=lbp
-
 
 
 
