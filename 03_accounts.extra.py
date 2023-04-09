@@ -5,6 +5,9 @@
 # An account number of four digits or fewer cannot benefit from a code which hides all but the last four digits.
 # Author: James McEneaney
 
+
+
+
 # This asks the user to input a valid number for the purpose of this exercise
 x = input("please enter a number containing seven or more digits: ")
 

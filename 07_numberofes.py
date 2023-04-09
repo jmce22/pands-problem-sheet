@@ -1,3 +1,4 @@
+
 # This script opens a file, reads the file, and counts the number of times 
 # the letter "e" appears (in either upper or lower case).
 # The user enters the name of the file to be read on the command line after writing
@@ -10,6 +11,8 @@
 # https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python
 # https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
 # https://www.programiz.com/python-programming/methods/string/count
+
+
 
 
 # To read the file from the command line, we need to import and use the sys module.

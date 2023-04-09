@@ -1,3 +1,4 @@
+
 # This script takes a positive floating-point number as an input and outputs 
 # an approximation of its square root.
 
@@ -20,6 +21,8 @@
 # References: 
 # https://en.wikipedia.org/wiki/Newton%27s_method#Examples 
 # https://www.youtube.com/watch?v=xdlIFw5EM4w
+
+
 
 
 # This asks the user to input a number which they want to estimate the square root of.
