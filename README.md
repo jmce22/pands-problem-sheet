@@ -9,15 +9,15 @@ I used VSCode to write my scripts and to upload them to a repository on github f
 
 
 ## Table of contents
-* [Problem sheets]
-  * [Week 1 - hello world]
-  * [Week 2 - bank]
-  * [Week 3 - accounts]
-  * [Week 4 - collatz]
-  * [Week 5 - weekday]
-  * [Week 6 - square root]
-  * [Week 7 - number of e's]
-  * [Week 8 - plot task]
+* [Problem sheets](#problem-sheets)
+    * [Week 1 - hello world](#week-1-hello-world)
+    * [Week 2 - bank](#week-2-bank)
+    * [Week 3 - accounts](#week-3-accounts)
+    * [Week 4 - collatz](#week-4-collatz)
+    * [Week 5 - weekday](#week-5-weekday)
+    * [Week 6 - square root](#week-6-square-root)
+    * [Week 7 - number of es](#week-7-number-of-es)
+    * [Week 8 - plot task](#week-8-plot-task)
 
 
 ## Problem sheets
