@@ -1,8 +1,11 @@
 # Pands-problem-sheet: 2023
 
-This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU.
+This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU. \
+I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour Python Bootcamp course on Udemy last summer.
 
 I used VSCode to write my scripts and to upload them to a repository on github for assessment.
+
+
 
 
 ## Table of contents
@@ -26,7 +29,8 @@ I used VSCode to write my scripts and to upload them to a repository on github f
 
 The first week's homework involved installing the software required for the module, getting set up on github and creating two repositories on there; one for uploading practice work from weekly labs, and another for the 'pands problem sheets' which form part of the assessment for the module.
 
-I found I needed to follow the lecturers instructions carefully to get my machine set up on github and to correctly push code from my machine on to github, but once I got set up I found it very user-friendly.\
+I found I needed to follow the lecturers instructions carefully to get my machine set up on github and to correctly push code from my machine on to github, but once I got set up I found it very user-friendly.
+
 I also familiarised myself with VSCode.
 
 
@@ -57,7 +61,7 @@ Hello World!
     Prompt the user and read in two money amounts (in cent). Add the two amounts.
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-The second week's homework 
+The second week's homework built upon the lectures which covered arithmetic operators, variable types
 
 
 <details>
