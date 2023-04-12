@@ -8,23 +8,24 @@ I used VSCode to write my scripts and to upload them to a repository on github f
 References: \
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup
+https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown
 
 
 ## Table of contents
 * [Problem sheets](#problem-sheets)
-    * [Week 1 - hello world](#week-1-hello-world)
-    * [Week 2 - bank](#week-2-bank)
-    * [Week 3 - accounts](#week-3-accounts)
-    * [Week 4 - collatz](#week-4-collatz)
-    * [Week 5 - weekday](#week-5-weekday)
-    * [Week 6 - square root](#week-6-square-root)
-    * [Week 7 - number of es](#week-7-number-of-es)
-    * [Week 8 - plot task](#week-8-plot-task)
+    * [Week 1 - hello world](#hello-world)
+    * [Week 2 - bank](#bank)
+    * [Week 3 - accounts](#accounts)
+    * [Week 4 - collatz](#collatz)
+    * [Week 5 - weekday](#weekday)
+    * [Week 6 - square root](#square-root)
+    * [Week 7 - number of es](#number-of-es)
+    * [Week 8 - plot task](#plot-task)
 
 
 ## Problem sheets
 
-###  Week 1 - hello world 
+### Hello world 
     
     Commit and push a file to the problem sheet (repository) called helloworld.py.
     This file should contain a python program that displays Hello World! when it is run.
@@ -58,7 +59,7 @@ Hello World!
 
 
 
-###  Week 2 - bank
+### Bank
     
     Prompt the user and read in two money amounts (in cent). Add the two amounts.
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
@@ -91,7 +92,7 @@ User output is :
 
 
 
-###  Week 3 - accounts
+### Accounts
     
     Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with 
     only the last 4 digits showing (and the first 6 digits replaced with Xs).
@@ -133,7 +134,7 @@ XXXXXXX4567
 </details>
 
 
-###  Week 4 - collatz
+### Collatz
     
     Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of 
     the following calculation.
@@ -170,7 +171,7 @@ And so another positive integer succumbs to the gravitational pull of the Collat
 </details>
 
 
-###  Week 5 - weekday
+### Weekday
     
     Write a program that outputs whether or not today is a weekday
 
@@ -201,7 +202,7 @@ Today it is Saturday, which thankfully is the weekend!
 </details>
 
 
-###  Week 6 - square root
+### Square root
     
     Write program that takes a positive floating-point number as input and outputs an approximation of its square root:
     it should be our own function, rather than using any built-in functions for square roots.
@@ -246,7 +247,7 @@ User output is :
 
 
 
-###  Week 7 - number of e's
+### Number of es
     
     Prompt the user and read in two money amounts (in cent). Add the two amounts.
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
@@ -276,7 +277,7 @@ The letter 'e' appears in the file '.\hardtimes_chapter1.txt' 181 times.
 
 
 
-###  Week 8 - plot task
+### Plot task
     
     Create a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
     and a plot of the function h(x)=x3 in the range [0, 10].
