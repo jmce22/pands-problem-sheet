@@ -5,7 +5,9 @@ I had some basic familiarity with Python before I commenced this module, having 
 
 I used VSCode to write my scripts and to upload them to a repository on github for assessment.
 
-
+References: \
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup
 
 
 ## Table of contents
@@ -139,10 +141,11 @@ XXXXXXX4567
     multiply it by three and add one. Have the program end if the current value is one.
     
 
-This task According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
-below will eventually transform every positive integer into 1.The two operations are:
-If the previous term is even, the next term is one half of the previous term. 
-If the previous term is odd, the next term is 3 times the previous term plus 1. 
+According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
+below will eventually transform every positive integer into 1. The two operations are: \
+&nbsp;&nbsp;&nbsp;&nbsp;If the previous term is even, the next term is one half of the previous term. \
+&nbsp;&nbsp;&nbsp;&nbsp;If the previous term is odd, the next term is 3 times the previous term plus 1.
+
 The conjecture is that for any positive integer chosen, these sequences always reach 1.
 
 
@@ -204,6 +207,22 @@ Today it is Saturday, which thankfully is the weekend!
     it should be our own function, rather than using any built-in functions for square roots.
 
 This week's task 
+
+The Newton Raphson method can produce an accurate estimate for the square root of a number as follows:
+Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
+This is equivalent to finding the value for x at which the function f(x) = x*x - a = 0. 
+Therefore f'(x) = 2x
+
+By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
+where x(0) is an initial guess for the square root.
+
+Simplifying the notation, "better guess" = x - ((x*x - a)/(2*x))
+Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
+estimate of the square root 'x'. 
+
+The right hand side of the formula can be rearranged to make it easier write a script:
+"better guess" = 0.5(2*x - (x - (a/x)) 
+= 0.5(x + (a/x)) 
 
 
 <details>
