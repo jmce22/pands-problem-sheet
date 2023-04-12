@@ -61,7 +61,10 @@ Hello World!
     Prompt the user and read in two money amounts (in cent). Add the two amounts.
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-The second week's homework built upon the lectures which covered arithmetic operators, variable types
+The second week's homework built upon the lectures which covered the writing of statements, and introduced arithmetic operators (+, -, * etc) and variable types (string, integer, floats and booleans). \
+It was also a chance to get more practice using VSCode and pushing to github. Initially I had difficulty completing the task, so I decided that I would come back to it after a few weeks of lectures, hoping that it would seem easier then. 
+
+I later answered the question by using the float variable and dividing the amount in cents by 100, which is a relatively simple solution. Following the lecturers feedback, however, I was made aware that a goal of the task was to implement a solution without needing to use floats or indirect floats (eg. dividng by 100), so I used a roundabout solution of converting the total in cents to a string, and placing a decimal point in between the last two digits and the remaining digits to the left of the decimal point. I found it reassuring that, while this solution didn't occur to me initially, I did think of it straight away when I saw the lecturers feedback, and was able to implement it relatively easily. This gave me confidence that I have been absorbing the information in this module over the past two months, and that I can hope to keep improving into the future.
 
 
 <details>
@@ -136,7 +139,11 @@ XXXXXXX4567
     multiply it by three and add one. Have the program end if the current value is one.
     
 
-This task built 
+This task According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
+below will eventually transform every positive integer into 1.The two operations are:
+If the previous term is even, the next term is one half of the previous term. 
+If the previous term is odd, the next term is 3 times the previous term plus 1. 
+The conjecture is that for any positive integer chosen, these sequences always reach 1.
 
 
 <details>

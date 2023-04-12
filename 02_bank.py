@@ -5,14 +5,17 @@
 
 
 
-# This asks the user to input two amounts in succession (in cents)
+# This asks the user to input two amounts in succession (in cents).
 amount1 = input('Enter amount 1 in cents: ')
 amount2 = input('Enter amount 2 in cents: ')
 
-# These add the two amounts inputted, divide the amount by 100 (converting the sum to the equivilant number of euros)
-# and stores this number as a floating point number.
-total_cents = int(amount1) + int(amount2)
-total_euro = float(total_cents/100)
 
-# This prints the result, along with a euro symbol
+# This adds the two amounts in cents and converts the result to a string format, for use in the second line, 
+# where the first part prints what goes before the decimal point, then adds a decimal point, then prints the
+# amount after the decimal point.
+total_cents = str(int(amount1) + int(amount2))
+total_euro = total_cents[:-2] + '.' + total_cents[-2:]
+
+
+# This prints the result, along with a euro symbol.
 print("€"+ str(total_euro))

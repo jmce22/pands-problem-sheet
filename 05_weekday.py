@@ -7,19 +7,20 @@
 
 
 
-
-# This access the datetime module which allows us to access and manipulate data about dates and time.
+# This imports the datetime module which allows us to access and manipulate data about dates and time.
 import datetime
+
 
 # This creates an object which represents the current date and time.
 today = datetime.datetime.now()
 
+
 # This gets the day of the week as an integer, with 0 representing Monday, up to 6 representing Sunday.
 dayofweek = today.weekday()
 
+
 # If dayofweek outputs the integer 5 or 6, this means it is Saturday or Sunday. The piece of code today.strftime("%A") generates the 
 # name of the day.
-
 if int(dayofweek) > 4: 
     print(f'Today it is {today.strftime("%A")}, which thankfully is the weekend!')
 else:

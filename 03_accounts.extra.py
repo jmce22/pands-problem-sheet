@@ -8,16 +8,19 @@
 
 
 # This asks the user to input a valid number for the purpose of this exercise
-x = input("please enter a number containing seven or more digits: ")
+x = input("Please enter a number containing seven or more digits: ")
+
 
 # This variable establishes how many 'X' characters will be placed before the last four digits of the account number.
 # it subtracts four from the number of digits contained within the number inputted by the user and stores this as 
 # an integer for use in the next line of the script
 intx = int(len(x)-4)
 
+
 # This variable represents the string of 'X' characters which will precede the last four digits of the account number 
 numberofx = intx*"X"
 
+
 # This prints a string of 'X' characters up to replace each digit up to but not including the fourth last digit, 
 # and then prints out the last four digits
-print(f"{numberofx}{x[-5:-1]}")
+print(f"{numberofx}{x[-4:]}")

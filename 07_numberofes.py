@@ -16,17 +16,21 @@
 # To read the file from the command line, we need to import and use the sys module.
 import sys
 
+
 # This equates the name of the file to be read to the first argument on the command line
 # (that is, the argument following the name of the python script itself)
 filename = sys.argv[1]
+
 
 # This opens the file in text mode and read its contents.
 with open(filename, 'rt') as f:
     content = f.read()
 
+
 # The count method returns the number of times a given substring ("e" or "E" in this case) occurs
 # within a given string (in this case, the contents of the text document read in from the command line)
     num_es = content.count("e") + content.count("E")
+
 
 # This prints out the number of times the letter 'e' appears in the text file.
 print(f"The letter 'e' appears in the file '{filename}' {num_es} times." )
