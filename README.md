@@ -291,19 +291,22 @@ To make the plot look nicer, I researched online and found out how to impose a m
            <summary>User point of view</summary>
            <p>
          
-User call of the script is :
+User call of the script is :    
 ```
-python .\08_plottask_hist.py
+python .\08_plottask_hist.py          
 ```
-User input:
+User input:          
 ```
-(N/A)
+(N/A)         
 ```
+              
 User output is :
-```
-(A histogram is generated representing a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2.
-I have saved a sample of the output of this script in my pands-problem-sheet repository under the name 08_plottask_hist.png)
-            
+              
+![image](https://user-images.githubusercontent.com/108928457/231457162-623a5b16-187f-4d96-8c72-a48f200d484b.png)
+
+</p>
+       
+   
 ```
 User call of the script is :
 ```
@@ -315,8 +318,9 @@ User input:
 ```
 User output is :
 ```
-(A plot is generated of the function h(x)=x3 in the range [0, 10].
-I have saved a sample of the output of this script in my pands-problem-sheet repository under the name 08_plottask_plot.png)
+![image](https://user-images.githubusercontent.com/108928457/231454780-25e9478b-0715-4a95-bb11-fed77d277e7d.png)
+
+              
 ```
 </p>
 </details>
