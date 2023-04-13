@@ -93,7 +93,9 @@ User output is :
     only the last 4 digits showing (and the first 6 digits replaced with Xs).
     Extra part: Modify the program to deal with account numbers of any length, commenting on your assumptions.
 
-The third week's homework contained two parts
+The third week's homework built upon the topics covered in week 3: variables, built-in functions, manipulating strings, and using f-strings to print out Python expressions in a string format.\
+It consisted of two parts: the first part had explicit instructions, whereas the second part required us to set out our assumptions behind our script. \
+I placed a lower limit of seven digits for the account number, because a five or six digit account number doesn't gain from having only one or two of its digits hidden. I did not make assumptions on the upper bound of how many digits an account number can be, in order to stick to the instructions for the exercise, even if in practice it is unusual for an account number to contain, for example, 100 digits.
 
 
 <details>
@@ -206,13 +208,13 @@ This week's task
 
 The Newton Raphson method can produce an accurate estimate for the square root of a number as follows:
 Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
-This is equivalent to finding the value for x at which the function f(x) = x*x - a = 0. 
+This is equivalent to finding the value for x at which the function f(x) = x^2 - a = 0. 
 Therefore f'(x) = 2x
 
 By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
 where x(0) is an initial guess for the square root.
 
-Simplifying the notation, "better guess" = x - ((x*x - a)/(2*x))
+Simplifying the notation, "better guess" = x - ((x^2 - a)/(2*x))
 Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
 estimate of the square root 'x'. 
 
