@@ -5,6 +5,7 @@ I had some basic familiarity with Python before I commenced this module, having 
 
 I used VSCode to write my scripts and to upload them to a repository on github for assessment.
 
+&nbsp; 
 
 ## Table of contents
 * [Problem sheets](#problem-sheets)
@@ -18,6 +19,9 @@ I used VSCode to write my scripts and to upload them to a repository on github f
     * [Week 8 - plot task](#plot-task)
 * [References](#references)
 
+&nbsp; 
+
+
 ## Problem sheets
 
 ### Hello world 
@@ -25,7 +29,7 @@ I used VSCode to write my scripts and to upload them to a repository on github f
     Commit and push a file to the problem sheet (repository) called helloworld.py.
     This file should contain a python program that displays Hello World! when it is run.
 
-The first week's homework involved installing the software required for the module, getting set up on github and creating two repositories on there; one for uploading practice work from weekly labs, and another for the 'pands problem sheets' which form part of the assessment for the module.
+The first week's task involved installing the software required for the module, getting set up on github and creating two repositories on there; one for uploading practice work from weekly labs, and another for the 'pands problem sheets' which form part of the assessment for the module.
 
 I found I needed to follow the lecturers instructions carefully to get my machine set up on github and to correctly push code from my machine on to github, but once I got set up I found it very user-friendly.
 
@@ -52,14 +56,14 @@ Hello World!
 </p>
 </details>
 
-
+&nbsp; 
 
 ### Bank
     
     Prompt the user and read in two money amounts (in cent). Add the two amounts.
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-The second week's homework built upon the lectures which covered the writing of statements, and introduced arithmetic operators (+, -, * etc) and variable types (string, integer, floats and booleans). \
+The second week's task built upon the lectures which covered the writing of statements, and introduced arithmetic operators (+, -, * etc) and variable types (string, integer, floats and booleans). \
 It was also a chance to get more practice using VSCode and pushing to github. Initially I had difficulty completing the task, so I decided that I would come back to it after a few weeks of lectures, hoping that it would seem easier then. 
 
 I later answered the question by using the float variable and dividing the amount in cents by 100, which is a relatively simple solution. Following the lecturers feedback, however, I was made aware that a goal of the task was to implement a solution without needing to use floats or indirect floats (eg. dividng by 100), so I used a roundabout solution of converting the total in cents to a string, and placing a decimal point in between the last two digits and the remaining digits to the left of the decimal point. I found it reassuring that, while this solution didn't occur to me initially, I did think of it straight away when I saw the lecturers feedback, and was able to implement it relatively easily. This gave me confidence that I have been absorbing the information in this module over the past two months, and that I can hope to keep improving into the future.
@@ -85,7 +89,7 @@ User output is :
 </p>
 </details>
 
-
+&nbsp; 
 
 ### Accounts
     
@@ -93,7 +97,7 @@ User output is :
     only the last 4 digits showing (and the first 6 digits replaced with Xs).
     Extra part: Modify the program to deal with account numbers of any length, commenting on your assumptions.
 
-The third week's homework built upon the topics covered in week 3: variables, built-in functions, manipulating strings, and using f-strings to print out Python expressions in a string format.\
+The third week's task built upon the topics covered in week 3: variables, built-in functions, manipulating strings, and using f-strings to print out Python expressions in a string format.\
 It consisted of two parts: the first part had explicit instructions, whereas the second part required us to set out our assumptions behind our script. 
 
 I placed a lower limit of seven digits for the account number, because a five or six digit account number doesn't gain from having only one or two of its digits hidden. I did not make assumptions on the upper bound of how many digits an account number can be, in order to stick to the instructions for the exercise, even if in practice it is unusual for an account number to contain, for example, 100 digits.
@@ -131,6 +135,7 @@ XXXXXXX4567
 </p>
 </details>
 
+&nbsp; 
 
 ### Collatz
     
@@ -172,12 +177,19 @@ And so another positive integer succumbs to the gravitational pull of the Collat
 </p>
 </details>
 
+&nbsp; 
 
 ### Weekday
     
     Write a program that outputs whether or not today is a weekday
 
-The task for this week
+Week 5 covered the topics of lists, tuples and dictionaries, and the lectures walked through some examples of how to use these data structures in Python. \
+The completion of this task required us to import the datetime module (https://www.w3schools.com/python/python_datetime.asp). This allows us to create an object which displays the current date, which we can further manipulate for the purpose of completing this task.
+
+Next, the method .weekday() allows us to attribute an integer 0 to 4 inclusive to the five weekdays, and 5 and 6 to the two weekend days. We can use this output of this method within an f-string to output a statement about whether it is a weekday or weekend.
+(https://pynative.com/python-get-the-day-of-week/#:~:text=Use%20the%20weekday()%20method,its%20weekday%20number%20is%200.)
+
+We didn't cover functions and modules in much depth until Week 6, so this task required some research to complete at the time the task was assigned.
 
 
 <details>
@@ -203,6 +215,7 @@ Today it is Saturday, which thankfully is the weekend!
 </p>
 </details>
 
+&nbsp; 
 
 ### Square root
     
@@ -247,7 +260,7 @@ User output is :
 </p>
 </details>
 
-
+&nbsp; 
 
 ### Number of es
     
@@ -277,7 +290,7 @@ The letter 'e' appears in the file '.\hardtimes_chapter1.txt' 181 times.
 </p>
 </details>
 
-
+&nbsp; 
 
 ### Plot task
     
@@ -324,7 +337,7 @@ User output is :
 </p>
 </details>
               
-
+&nbsp; 
 
 ## References:
 
