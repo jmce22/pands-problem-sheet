@@ -5,11 +5,6 @@ I had some basic familiarity with Python before I commenced this module, having 
 
 I used VSCode to write my scripts and to upload them to a repository on github for assessment.
 
-References: \
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup
-https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown
-
 
 ## Table of contents
 * [Problem sheets](#problem-sheets)
@@ -21,7 +16,7 @@ https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-docu
     * [Week 6 - square root](#square-root)
     * [Week 7 - number of es](#number-of-es)
     * [Week 8 - plot task](#plot-task)
-
+* [References](#references)
 
 ## Problem sheets
 
@@ -249,9 +244,9 @@ User output is :
 
 ### Number of es
     
-    Prompt the user and read in two money amounts (in cent). Add the two amounts.
-    Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
-
+    Write a program that reads in a text file and outputs the number of e's it contains, documenting any assumptions you are making.
+    The program should take the filename from an argument on the command line.
+  
 This week's homework 
 
 
@@ -291,7 +286,7 @@ To make the plot look nicer, I researched online and found out how to impose a m
            <summary>User point of view</summary>
            <p>
          
-User call of the script is :    
+User call of the histogram script is :    
 ```
 python .\08_plottask_hist.py          
 ```
@@ -304,11 +299,9 @@ User output is :
               
 ![image](https://user-images.githubusercontent.com/108928457/231457162-623a5b16-187f-4d96-8c72-a48f200d484b.png)
 
-</p>
-       
-   
+```      
 ```
-User call of the script is :
+User call of the plot script is :
 ```
 python .\08_plottask_plot.py
 ```
@@ -317,12 +310,19 @@ User input:
 (N/A)
 ```
 User output is :
-```
+
 ![image](https://user-images.githubusercontent.com/108928457/231454780-25e9478b-0715-4a95-bb11-fed77d277e7d.png)
 
-              
-```
+      
 </p>
 </details>
+              
 
 
+## References:
+
+   * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+   * https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup
+   * https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown
+
+              
