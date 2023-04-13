@@ -1,5 +1,4 @@
-# This script demonstrates the Collatz conjecture. 
-# 
+# This script demonstrates the Collatz conjecture.
 
 # References: 'A Whirlwind Tour of Python 2'
 # https://www.youtube.com/watch?v=5mFpVDpKX70  

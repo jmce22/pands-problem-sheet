@@ -28,8 +28,7 @@ xpoints = np.array(range(1,10))
 ypoints = xpoints*xpoints*xpoints
 
 
-# These print on to the plot the title, x-axis label, y-axis label and the content (and position - default set to top left) of 
-# the legend for the plot.
+# These print on to the plot the title, x-axis label and y-axis label
 plt.title("week 8 - plot")
 plt.xlabel("x")
 plt.ylabel("h(x)")

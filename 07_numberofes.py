@@ -1,7 +1,9 @@
 # This script opens a file, reads the file, and counts the number of times 
 # the letter "e" appears (in either upper or lower case).
+
 # The user enters the name of the file to be read on the command line after writing
 # the name of the script ("07_numberofes"). 
+
 # The file to be read should ideally be saved within the same directory as the program, to make it easier to
 # retrieve the file path when typing the name of the text file on the command line.
 

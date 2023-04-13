@@ -30,7 +30,7 @@ plt.style.use("seaborn-whitegrid")
 # np.random.seed(1)
 
 
-# These specifies the basic statistical properties of the data contained in the histogram.
+# These ascribe the basic statistical properties of the data contained in the histogram.
 mean = 5
 st_dev = 2
 num_values = 1000
@@ -38,7 +38,7 @@ values = np.random.normal(mean, st_dev, num_values)
 
 
 # These print onto the histogram the title, x-axis label, y-axis label and the content, and position, of the legend for the plot
-# (default position for the legend is top=left corner).
+# (default position for the legend is top-left corner).
 plt.title("week 8 - histogram")
 plt.xlabel("value of x")
 plt.ylabel("frequency of x")
