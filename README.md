@@ -94,7 +94,8 @@ User output is :
     Extra part: Modify the program to deal with account numbers of any length, commenting on your assumptions.
 
 The third week's homework built upon the topics covered in week 3: variables, built-in functions, manipulating strings, and using f-strings to print out Python expressions in a string format.\
-It consisted of two parts: the first part had explicit instructions, whereas the second part required us to set out our assumptions behind our script. \
+It consisted of two parts: the first part had explicit instructions, whereas the second part required us to set out our assumptions behind our script. 
+
 I placed a lower limit of seven digits for the account number, because a five or six digit account number doesn't gain from having only one or two of its digits hidden. I did not make assumptions on the upper bound of how many digits an account number can be, in order to stick to the instructions for the exercise, even if in practice it is unusual for an account number to contain, for example, 100 digits.
 
 
@@ -137,14 +138,18 @@ XXXXXXX4567
     the following calculation.
     At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd,
     multiply it by three and add one. Have the program end if the current value is one.
-    
 
-According to Wikipedia, this conjecture asks whether repeating the two simple arithmetic operations 
-below will eventually transform every positive integer into 1. The two operations are: \
-&nbsp;&nbsp;&nbsp;&nbsp;If the previous term is even, the next term is one half of the previous term. \
-&nbsp;&nbsp;&nbsp;&nbsp;If the previous term is odd, the next term is 3 times the previous term plus 1.
+Week 4 covered the area of controlling the flow of a Python script; if, elif and else statements, and while and for loops. 
 
-The conjecture is that for any positive integer chosen, these sequences always reach 1.
+The weekly task involved using:
+* a while loop to account for the situation where an inputted number is negative, where the user is asked again to input a positive integer
+* once a number is positive, another while loop is used to ensure that the numerical operations described by the Collatz conjecture will be carried out until a value of 2 is reached, at which point the sequence will end
+* within this second while loop, an if statement is used in conjunction with the modulus operator to ensure that even numbers are divided by 2
+* and an else statement is used to ensure that odd numbers are multipled by 3 and the result added to 1.
+
+The Collatz conjecture is that for any positive integer chosen and subjected to the operations above, the sequence will always reach 1.
+
+I found this an task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
 
 
 <details>
