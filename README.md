@@ -271,7 +271,7 @@ This week's lecturers covered reading files and writing to files, and covered th
 The weekly taks required us to research how to read in a file from the command line which is to be used in a script. The solution consisted of:
 * firstly importing the sys module
 * then assigning the filename of the text document being tested in the script to be the first argument following the name of the script (this is done using filename = sys.argv[1]). For the text file I used the first chapter of Charles Dickens' 'Hard Times'. 
-* opening the file in text mode and reading its contents. I used the site https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python and https://www.knowledgehut.com/blog/programming/sys-argv-python-examples to understand how to do this step and the previous step.
+* opening the file in text mode and reading its contents. I used the sites https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python and https://www.knowledgehut.com/blog/programming/sys-argv-python-examples to understand how to do this step.
 * and finally using a function called count() to count the number of times the letter 'e' appears as a small letter and all the times it appears as a capitalised letter. I used the site https://www.programiz.com/python-programming/methods/string/count to find out about the count function.
 
 <details>
@@ -301,9 +301,11 @@ The letter 'e' appears in the file '.\hardtimes_chapter1.txt' 181 times.
     Create a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
     and a plot of the function h(x)=x3 in the range [0, 10].
 
-The final homework task required us to use the libraries NumPy and Matplotlib to create a plot and a histogram.
+Week 8 covered NumPy (used for mathematical operations) and Matplotlib (used for data visualisation). The final weekly taskrequired us to use these two libraries  and to create a plot and a histogram.
 
-To make the plot look nicer, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package.
+To make the plot look nicer, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package. 
+
+I saved the plots in .png format in the pands-problem-sheet folder to upload to github; from there I could obtain a http link to the plot to allow me to include it in this README file.
 
 
 <details>
