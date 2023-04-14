@@ -186,7 +186,7 @@ And so another positive integer succumbs to the gravitational pull of the Collat
 Week 5 covered the topics of lists, tuples and dictionaries, and the lectures walked through some examples of how to use these data structures in Python. \
 The completion of this task required us to import the datetime module (https://www.w3schools.com/python/python_datetime.asp). This allows us to create an object which displays the current date, which we can further manipulate for the purpose of completing this task.
 
-Next, the method .weekday() allows us to attribute an integer 0 to 4 inclusive to the five weekdays, and 5 and 6 to the two weekend days. We can use this output of this method within an f-string to output a statement about whether it is a weekday or weekend.
+Next, the method .weekday() allows us to attribute an integer 0 to 4 inclusive to the five weekdays, and 5 and 6 to the two weekend days. We can use the output of this method within an f-string to output a statement about whether it is a weekday or weekend.
 (https://pynative.com/python-get-the-day-of-week/#:~:text=Use%20the%20weekday()%20method,its%20weekday%20number%20is%200.)
 
 We didn't cover functions and modules in much depth until Week 6, so this task required some research to complete at the time the task was assigned.
@@ -266,8 +266,13 @@ User output is :
     Write a program that reads in a text file and outputs the number of e's it contains, documenting any assumptions you are making.
     The program should take the filename from an argument on the command line.
   
-This week's lecturers covered reading files and writing to files.
+This week's lecturers covered reading files and writing to files, and covered the file types of JSON and CSV files.
 
+The weekly taks required us to research how to read in a file from the command line which is to be used in a script. The solution consisted of:
+* firstly importing the sys module
+* then assigning the filename of the text document being tested in the script to be the first argument following the name of the script (this is done using filename = sys.argv[1]). For the text file I used the first chapter of Charles Dickens' 'Hard Times'. 
+* opening the file in text mode and reading its contents. I used the site https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python and https://www.knowledgehut.com/blog/programming/sys-argv-python-examples to understand how to do this step and the previous step.
+* and finally using a function called count() to count the number of times the letter 'e' appears as a small letter and all the times it appears as a capitalised letter. I used the site https://www.programiz.com/python-programming/methods/string/count to find out about the count function.
 
 <details>
            <summary>User point of view</summary>
