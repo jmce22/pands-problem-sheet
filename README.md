@@ -3,7 +3,11 @@
 This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU. \
 I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour Python Bootcamp course on Udemy last summer.
 
-I used VSCode to write my scripts and to upload them to a repository on github for assessment.
+I used VSCode to write my scripts and to upload them to a repository on github for assessment. 
+
+I have included references for tasks as part of the comments within the python scripts. For the first three weeks, my source of information was simply the lecture material, coupled with W3 schools as suggested by the lecturer. From week 4 onwards, my range of references expanded to other material found online. I have also included references within this README file where I thought they might be useful to understand how I came to my solutions.
+
+At the end of this script I have included reference for material I used to write this README file itself.
 
 &nbsp; 
 
@@ -299,13 +303,13 @@ The letter 'e' appears in the file '.\hardtimes_chapter1.txt' 181 times.
 ### Plot task
     
     Create a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-    and a plot of the function h(x)=x3 in the range [0, 10].
+    and a plot of the function h(x)=x^3 in the range [0, 10].
 
 Week 8 covered NumPy (used for mathematical operations) and Matplotlib (used for data visualisation). The final weekly taskrequired us to use these two libraries  and to create a plot and a histogram.
 
-To make the plot look nicer, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package. 
+To make the histogram and plot look more appealing, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package. 
 
-I saved the plots in .png format in the pands-problem-sheet folder to upload to github; from there I could obtain a http link to the plot to allow me to include it in this README file.
+I saved the the histogram and plot in .png format in the pands-problem-sheet folder to upload to Github; from there I could obtain a http link to the histogram and plot to allow me to include it in this README file.
 
 
 <details>
