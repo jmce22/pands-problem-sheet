@@ -154,7 +154,7 @@ The weekly task involved using:
 
 The Collatz conjecture is that for any positive integer chosen and subjected to the operations above, the sequence will always reach 1.
 
-I found this an task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
+I found this task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
 
 
 <details>
@@ -222,23 +222,22 @@ Today it is Saturday, which thankfully is the weekend!
     Write program that takes a positive floating-point number as input and outputs an approximation of its square root:
     it should be our own function, rather than using any built-in functions for square roots.
 
-This week's task 
+The lectures for Week 6 covered functions (defining and calling), passing arguments into functions and returning variables.\
+The task required us to research how to create a function which takes in an input of a positive floating point number, and outputs an approximation of its square root.
+I took the lecuturers suggestion on board of researching the Newton Raphson method to use for the task, and I firstly read the Wikipedia page to familirise myself with the algebra. I saw that arranging the formula could produce what is called the Babylonian method of finding square roots, which takes a simpler formula than the unarranged form, and from searching on YouTube I found a very helpful video which outlined how to implement this formula in python (https://www.youtube.com/watch?v=xdlIFw5EM4w).
 
-The Newton Raphson method can produce an accurate estimate for the square root of a number as follows:
-Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
-This is equivalent to finding the value for x at which the function f(x) = x^2 - a = 0. 
-Therefore f'(x) = 2x
-
-By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
-where x(0) is an initial guess for the square root.
-
-Simplifying the notation, "better guess" = x - ((x^2 - a)/(2*x))
-Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
-estimate of the square root 'x'. 
-
-The right hand side of the formula can be rearranged to make it easier write a script:
-"better guess" = 0.5(2*x - (x - (a/x)) 
-= 0.5(x + (a/x)) 
+On outline for how the Newton Raphson method can produce an accurate estimate for the square root of a number is as follows: 
+* Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
+  This is equivalent to finding the value for x at which the function f(x) = x^2 - a = 0. 
+  Therefore f'(x) = 2x
+* By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
+  where x(0) is an initial guess for the square root.
+* Simplifying the notation, "better guess" = x - ((x^2 - a)/(2* x))
+  Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
+  estimate of the square root 'x'. 
+* The right hand side of the formula can be rearranged to make it easier write a script:
+  "better guess" = 0.5(2* x - (x - (a/x)) 
+  = 0.5(x + (a/x)) 
 
 
 <details>
@@ -267,7 +266,7 @@ User output is :
     Write a program that reads in a text file and outputs the number of e's it contains, documenting any assumptions you are making.
     The program should take the filename from an argument on the command line.
   
-This week's homework 
+This week's lecturers covered reading files and writing to files.
 
 
 <details>
