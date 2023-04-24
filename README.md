@@ -3,7 +3,15 @@
 This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU. \
 I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour 'Python Bootcamp' course on Udemy in summer 2022.
 
+<<<<<<< HEAD
 I used Visual Studio Code (version 1.77.3) to write my scripts and to upload them to a repository on github for assessment.
+=======
+I used VSCode to write my scripts and to upload them to a repository on github for assessment. 
+
+I have included references for tasks as part of the comments within the python scripts. For the first three weeks, my source of information was simply the lecture material, coupled with W3 schools as suggested by the lecturer. From week 4 onwards, my range of references expanded to other material found online. I have also included references within this README file where I thought they might be useful to understand how I came to my solutions.
+
+At the end of this script I have included reference for material I used to write this README file itself.
+>>>>>>> 5b715446e879867b45d65bafa8622e283b32dd94
 
 &nbsp; 
 
@@ -154,7 +162,11 @@ The weekly task involved using:
 
 The Collatz conjecture is that for any positive integer chosen and subjected to the operations above, the sequence will always reach 1.
 
+<<<<<<< HEAD
 I found this a task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
+=======
+I found this task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
+>>>>>>> 5b715446e879867b45d65bafa8622e283b32dd94
 
 
 <details>
@@ -186,7 +198,7 @@ And so another positive integer succumbs to the gravitational pull of the Collat
 Week 5 covered the topics of lists, tuples and dictionaries, and the lectures walked through some examples of how to use these data structures in Python. \
 The completion of this task required us to import the datetime module (https://www.w3schools.com/python/python_datetime.asp). This allows us to create an object which displays the current date, which we can further manipulate for the purpose of completing this task.
 
-Next, the method .weekday() allows us to attribute an integer 0 to 4 inclusive to the five weekdays, and 5 and 6 to the two weekend days. We can use this output of this method within an f-string to output a statement about whether it is a weekday or weekend.
+Next, the method .weekday() allows us to attribute an integer 0 to 4 inclusive to the five weekdays, and 5 and 6 to the two weekend days. We can use the output of this method within an f-string to output a statement about whether it is a weekday or weekend.
 (https://pynative.com/python-get-the-day-of-week/#:~:text=Use%20the%20weekday()%20method,its%20weekday%20number%20is%200.)
 
 We didn't cover functions and modules in much depth until Week 6, so this task required some research to complete at the time the task was assigned.
@@ -222,23 +234,22 @@ Today it is Saturday, which thankfully is the weekend!
     Write program that takes a positive floating-point number as input and outputs an approximation of its square root:
     it should be our own function, rather than using any built-in functions for square roots.
 
-This week's task 
+The lectures for Week 6 covered functions (defining and calling), passing arguments into functions and returning variables.\
+The task required us to research how to create a function which takes in an input of a positive floating point number, and outputs an approximation of its square root.
+I took the lecuturers suggestion on board of researching the Newton Raphson method to use for the task, and I firstly read the Wikipedia page to familirise myself with the algebra. I saw that arranging the formula could produce what is called the Babylonian method of finding square roots, which takes a simpler formula than the unarranged form, and from searching on YouTube I found a very helpful video which outlined how to implement this formula in python (https://www.youtube.com/watch?v=xdlIFw5EM4w).
 
-The Newton Raphson method can produce an accurate estimate for the square root of a number as follows:
-Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
-This is equivalent to finding the value for x at which the function f(x) = x^2 - a = 0. 
-Therefore f'(x) = 2x
-
-By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
-where x(0) is an initial guess for the square root.
-
-Simplifying the notation, "better guess" = x - ((x^2 - a)/(2*x))
-Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
-estimate of the square root 'x'. 
-
-The right hand side of the formula can be rearranged to make it easier write a script:
-"better guess" = 0.5(2*x - (x - (a/x)) 
-= 0.5(x + (a/x)) 
+On outline for how the Newton Raphson method can produce an accurate estimate for the square root of a number is as follows: 
+* Let 'a' be the number whose square root we are seeking, and let a = x^2 ie. x is the square root.
+  This is equivalent to finding the value for x at which the function f(x) = x^2 - a = 0. 
+  Therefore f'(x) = 2x
+* By Newtons method, the first approximation for the square root, x(1), is equal to x(0) - (f(x(0))/ f'(x(0))), 
+  where x(0) is an initial guess for the square root.
+* Simplifying the notation, "better guess" = x - ((x^2 - a)/(2* x))
+  Provided the inital guess is a good one, a few iterations of this formula should generate an accurate 
+  estimate of the square root 'x'. 
+* The right hand side of the formula can be rearranged to make it easier write a script:
+  "better guess" = 0.5(2* x - (x - (a/x)) 
+  = 0.5(x + (a/x)) 
 
 
 <details>
@@ -267,8 +278,13 @@ User output is :
     Write a program that reads in a text file and outputs the number of e's it contains, documenting any assumptions you are making.
     The program should take the filename from an argument on the command line.
   
-This week's homework 
+This week's lecturers covered reading files and writing to files, and covered the file types of JSON and CSV files.
 
+The weekly taks required us to research how to read in a file from the command line which is to be used in a script. The solution consisted of:
+* firstly importing the sys module
+* then assigning the filename of the text document being tested in the script to be the first argument following the name of the script (this is done using filename = sys.argv[1]). For the text file I used the first chapter of Charles Dickens' 'Hard Times'. 
+* opening the file in text mode and reading its contents. I used the sites https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python and https://www.knowledgehut.com/blog/programming/sys-argv-python-examples to understand how to do this step.
+* and finally using a function called count() to count the number of times the letter 'e' appears as a small letter and all the times it appears as a capitalised letter. I used the site https://www.programiz.com/python-programming/methods/string/count to find out about the count function.
 
 <details>
            <summary>User point of view</summary>
@@ -295,11 +311,13 @@ The letter 'e' appears in the file '.\hardtimes_chapter1.txt' 181 times.
 ### Plot task
     
     Create a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-    and a plot of the function h(x)=x3 in the range [0, 10].
+    and a plot of the function h(x)=x^3 in the range [0, 10].
 
-The final homework task required us to use the libraries NumPy and Matplotlib to create a plot and a histogram.
+Week 8 covered NumPy (used for mathematical operations) and Matplotlib (used for data visualisation). The final weekly taskrequired us to use these two libraries  and to create a plot and a histogram.
 
-To make the plot look nicer, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package.
+To make the histogram and plot look more appealing, I researched online and found out how to impose a more attractive design template on to my plots using the style module in conjunction with the name of a pre-made style package. 
+
+I saved the the histogram and plot in .png format in the pands-problem-sheet folder to upload to Github; from there I could obtain a http link to the histogram and plot to allow me to include it in this README file.
 
 
 <details>
