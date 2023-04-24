@@ -3,15 +3,11 @@
 This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU. \
 I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour 'Python Bootcamp' course on Udemy in summer 2022.
 
-<<<<<<< HEAD
-I used Visual Studio Code (version 1.77.3) to write my scripts and to upload them to a repository on github for assessment.
-=======
-I used VSCode to write my scripts and to upload them to a repository on github for assessment. 
+I used Visual Studio Code (version 1.77.3) to write my scripts and to upload them to a repository on github for assessment. 
 
 I have included references for tasks as part of the comments within the python scripts. For the first three weeks, my source of information was simply the lecture material, coupled with W3 schools as suggested by the lecturer. From week 4 onwards, my range of references expanded to other material found online. I have also included references within this README file where I thought they might be useful to understand how I came to my solutions.
 
 At the end of this script I have included reference for material I used to write this README file itself.
->>>>>>> 5b715446e879867b45d65bafa8622e283b32dd94
 
 &nbsp; 
 
@@ -162,11 +158,7 @@ The weekly task involved using:
 
 The Collatz conjecture is that for any positive integer chosen and subjected to the operations above, the sequence will always reach 1.
 
-<<<<<<< HEAD
-I found this a task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
-=======
 I found this task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
->>>>>>> 5b715446e879867b45d65bafa8622e283b32dd94
 
 
 <details>
