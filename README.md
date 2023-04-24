@@ -351,9 +351,9 @@ User output is :
 
 ## References:
 
-   * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax \For getting familiar with writing in Markdown.
-   * https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup  \For help with creating more space between sections. 
-   * https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown \For help in creating links within the document.
-   * https://raw.githubusercontent.com/sandraelekes/GMIT-ps/master/README.md  \For help in formatting certain parts of README file, especially the 'user call of the script' dropdown to demonstrate the code.
+   * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax (For getting familiar with writing in Markdown).
+   * https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup  (For help with creating more space between sections).
+   * https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown (For help in creating links within the document).
+   * https://raw.githubusercontent.com/sandraelekes/GMIT-ps/master/README.md  (For help in formatting certain parts of README file, especially the 'user call of the script' dropdown to demonstrate the code).
 
               
