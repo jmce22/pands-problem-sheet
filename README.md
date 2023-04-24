@@ -1,9 +1,9 @@
 # Pands-problem-sheet: 2023
 
 This repository contains the scripts I used to complete the eight problem sheet tasks which were part of the assessment for the Programming and Scripting module of the Higher Diploma in Data Analytics from ATU. \
-I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour Python Bootcamp course on Udemy last summer.
+I had some basic familiarity with Python before I commenced this module, having completed roughly half of a 22-hour 'Python Bootcamp' course on Udemy in summer 2022.
 
-I used VSCode to write my scripts and to upload them to a repository on github for assessment.
+I used Visual Studio Code (version 1.77.3) to write my scripts and to upload them to a repository on github for assessment.
 
 &nbsp; 
 
@@ -154,7 +154,7 @@ The weekly task involved using:
 
 The Collatz conjecture is that for any positive integer chosen and subjected to the operations above, the sequence will always reach 1.
 
-I found this an task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
+I found this a task helpful for improving my abilities to implement if statements and while loops correctly, and I enjoyed finding out how to test a mathemetical conjecture in this way using Python.
 
 
 <details>
@@ -341,8 +341,9 @@ User output is :
 
 ## References:
 
-   * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-   * https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup
-   * https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown
+   * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax   For getting familiar with writing in Markdown.
+   * https://stackoverflow.com/questions/6046263/how-to-indent-a-few-lines-in-markdown-markup  For help with creating more space between sections. 
+   * https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown For help in creating links within the document.
+   * https://raw.githubusercontent.com/sandraelekes/GMIT-ps/master/README.md  For help in formatting certain parts of README file, especially the 'user call of the script' dropdown to demonstrate the code.
 
               
